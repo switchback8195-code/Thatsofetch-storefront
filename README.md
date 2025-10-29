@@ -53,5 +53,5 @@ For questions or collaboration inquiries, please reach out via GitHub or open an
 
  
 
-Let me know if you'd like to add badges, screenshots, or a tech stack section!
+
  
