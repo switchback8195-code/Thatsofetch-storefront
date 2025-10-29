@@ -1,0 +1,27 @@
+{
+  "Comment": "UPSERT apex A record to Shopify IP and www CNAME to shops.myshopify.com",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "example.com.",
+        "Type": "A",
+        "TTL": 300,
+        "ResourceRecords": [
+          { "Value": "23.227.38.65" }
+        ]
+      }
+    },
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "www.example.com.",
+        "Type": "CNAME",
+        "TTL": 300,
+        "ResourceRecords": [
+          { "Value": "shops.myshopify.com." }
+        ]
+      }
+    }
+  ]
+}
