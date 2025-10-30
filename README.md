@@ -1,6 +1,4 @@
 
-
- 
 # Thatsofetch Storefront
 
 Welcome to the **Thatsofetch Storefront** GitHub repository! This project is a custom Shopify storefront designed to enhance the shopping experience with tailored features and improved UI/UX.
